@@ -6,4 +6,4 @@ This project was made to learn the basics of webscraping and text classification
 
 Clone this project and create a new environement, e.g.
 
-'conda create -n webscraping -c conda-forge scikit-learn'
+  conda create -n webscraping -c conda-forge scikit-learn
