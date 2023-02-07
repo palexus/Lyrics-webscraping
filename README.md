@@ -13,9 +13,9 @@ Clone this project and create a new environement, e.g.
  
  Then activate your new environment, here it is called webscraping and install the requirements.
  
-`conda activate webscraping
+`conda activate webscraping`
 
-pip install -r requirements.txt`
+`pip install -r requirements.txt`
  
  
 ### If you run it for the first time,
