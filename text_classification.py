@@ -8,18 +8,12 @@ import os
 import numpy as np
 import requests
 import re
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from difflib import SequenceMatcher
 import matplotlib.pyplot as plt
-from sklearn.metrics import accuracy_score, precision_score, recall_score, classification_report, f1_score
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from sklearn.metrics import RocCurveDisplay, roc_curve, roc_auc_score
-from sklearn.metrics import precision_recall_curve
 from sklearn.naive_bayes import MultinomialNB
-import nltk  
-from nltk.tokenize import TreebankWordTokenizer # very good tokenizer for english, considers sentence structure
-from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer   
 
@@ -245,7 +239,6 @@ for art in artist:
  #   corpus = corpus_1 + corpus_2
   #  labels = len(corpus_1) * [art_1] + len(corpus_2) * [art_2]
   #  return corpus, labels
-
 
 
 corpus, labels = concatenate(args.artist, corpera)
