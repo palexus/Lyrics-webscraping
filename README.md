@@ -28,6 +28,6 @@ the you need to download the stopwords. We us here nltk and the english stopword
 
 The program is used in the Command-line. Run the main file and use your bands as attributes, e.g. 
 
-`python text_classification.py "Scooter" "Nirvana" "50 cent"`
+`python text_classification.py "Scooter" "Nirvana"`
 
-will download - if not already done - the lyrics of Scooter, Nirvana and 50 cent and compare them.
+will download - if not already done - the lyrics of Scooter and Nirvana and compare them.
